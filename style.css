@@ -1,0 +1,199 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+:root {
+  --preto-05: #f5f5f5;
+  --preto-100: #464646;
+  --azul-logo: #2A7AE4;
+}
+
+/* Html {
+  font-size: 62, 5%;
+} */
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+  height: 5020px;
+  font-family: "Raleway", sans-serif;
+  background: var(--preto-05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* BARRA DE NAVEGACAO ------------------------------------ */
+
+header {
+  display: flex;
+  width: 71rem;
+  padding: 2rem 0;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--preto-100);
+  margin: 0 auto;
+}
+.logo-img {
+  display: flex;
+}
+
+.menu-contato {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.menu-list {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  list-style: none;
+}
+
+/* INTRODUCAO ------------------------------------------ */
+
+.section-hero {
+  width: 71rem;
+  color: var(--preto-100, #464646);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-div {
+  width: 46.9375rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_texto-principal {
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.hero_texto-apoio {
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-div ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.hero_lista_li {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.foto-unsplash {
+  width: 23rem;
+  height: 23rem;
+  flex-shrink: 0;
+}
+
+/* SOBRE MIM - AREA---------------------------------------- */
+
+.sobre-min {
+  width: 100%;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sobre-min_main {
+  display: flex;
+  width: 71rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.sobre-min_principal {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--preto-100, #464646);
+}
+
+.sobre-min_apoio {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--preto-100, #464646);
+  width: 46.9375rem;
+}
+
+.sobre-min_imagem {
+  width: 8.75rem;
+  height: 3.25rem;
+}
+
+/* SKILLS E HOBBIES------------------------------------- */
+
+.skills-hobbies {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skills_texto {
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--preto-100, #464646);
+}
+
+.skills_ferramentas {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.skills_ferramentas > * {
+  display: flex;
+  width: 11rem;
+  height: 10.875rem;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.skills_ferramentas-texto {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+i{
+  color: var(--azul-logo);
+  font-size: 2rem;
+}
